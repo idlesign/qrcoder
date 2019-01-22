@@ -10,7 +10,7 @@ Description
 
 Could be useful for presentations when you need to generate QR for some string, e.g. link.
 
-Uses http://goqr.me service to generate QR code images.
+Plugin: https://plugins.jetbrains.com/plugin/11581-qrcoder
 
 .. image:: static/shot.png
 
@@ -23,3 +23,9 @@ How to use
 * Press ``AltGr + Q`` to trigger QR code popup.
 
 **Note:** You can bind a custom keystroke for "Show QR Code" action in ``Keymap``.
+
+
+Acknowledgements
+~~~~~~~~~~~~~~~~
+
+Uses http://goqr.me service to generate QR code images.
