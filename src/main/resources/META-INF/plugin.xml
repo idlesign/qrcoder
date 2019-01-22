@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>com.idlesign.qrcoder</id>
+    <name>QRCoder</name>
+    <vendor email="idlesign@yandex.ru" url="https://github.com/idlesign/qrcoder">Igor Starikov / idlesign /</vendor>
+
+    <idea-version since-build="143.000"/>
+    <depends>com.intellij.modules.platform</depends>
+
+    <description><![CDATA[
+    <em>Creates popups with QR code based on selected text.</em><br>
+    Bind custom keystrokes for "Show QR Code" action in Keymap.<br>
+    <hr>
+    Uses http://goqr.me service.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <p>
+
+            <strong>1.0.0</strong>
+            <ul>
+                <li>Initial release. Basic functionality.</li>
+            </ul>
+            <hr>
+
+        </p>
+    ]]></change-notes>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action id="ShowQrAction" class="ShowQrAction" text="Show QR Code"
+                description="Show popup with QR code for selected text">
+            <add-to-group group-id="EditorActions" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="altGraph Q"/>
+        </action>
+    </actions>
+
+</idea-plugin>
