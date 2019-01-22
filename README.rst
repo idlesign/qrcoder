@@ -12,6 +12,8 @@ Could be useful for presentations when you need to generate QR for some string, 
 
 Uses http://goqr.me service to generate QR code images.
 
+.. image:: static/shot.png
+
 
 How to use
 ----------
@@ -20,7 +22,4 @@ How to use
 * Select text you want to represent as QR code;
 * Press ``AltGr + Q`` to trigger QR code popup.
 
-.. note:: You can bind a custom keystroke for "Show QR Code" action in ``Keymap``.
-
-
-.. image:: static/shot.png
+**Note:** You can bind a custom keystroke for "Show QR Code" action in ``Keymap``.
